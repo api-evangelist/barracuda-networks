@@ -1,0 +1,45 @@
+generated: '2026-10-13'
+method: searched
+checked:
+- https://aws.amazon.com/marketplace/
+- https://azuremarketplace.microsoft.com/
+marketplace_apps: []
+edges:
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=3524ff0f-4c9b-4ce5-b1a2-b944b3c4a813
+  listing_count: 13
+  apps:
+  - Barracuda Advanced Email Protection Bundle
+  - Barracuda Cloud-to-Cloud Backup
+  - Barracuda Email Gateway Defense
+  - Barracuda Application Protection Advanced
+  - Barracuda Premium Plus Email Protection Bundle
+  seller_name: Barracuda Networks
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
+- partner_name: Microsoft Azure Marketplace
+  partner: microsoft-azure
+  partner_match: aggregator
+  type: marketplace
+  marketplace: azure-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://azuremarketplace.microsoft.com/en-us/marketplace/apps?search=Barracuda%20Networks%2C%20Inc.
+  listing_count: 18
+  apps:
+  - Barracuda CloudGen WAF for Azure
+  - Barracuda CloudGen Firewall and SD-WAN for Azure
+  - Barracuda Application Protection - SaaS
+  - Barracuda - Premium Support for App Protection
+  - AppSec QuickStart - up to 5 apps
+  seller_name: Barracuda Networks, Inc.
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
